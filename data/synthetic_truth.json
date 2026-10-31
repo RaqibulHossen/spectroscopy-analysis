@@ -1,0 +1,12 @@
+{
+  "provenance": "SIMULATED; not experimental data or a specific material",
+  "seed": 42,
+  "noise_std": 15,
+  "parameters": {
+    "amplitude": 1000.0,
+    "center_eV": 1.85,
+    "sigma_eV": 0.012,
+    "baseline": 80.0,
+    "slope_per_eV": 120.0
+  }
+}

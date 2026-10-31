@@ -1,0 +1,24 @@
+{
+  "model": "Gaussian + linear baseline",
+  "samples": 401,
+  "parameters": {
+    "amplitude": 1000.8290846630292,
+    "center_eV": 1.8499634557325033,
+    "sigma_eV": 0.011975087600983796,
+    "baseline": 80.10300580680898,
+    "slope_per_eV": 130.36236653824966
+  },
+  "standard_errors": {
+    "amplitude": 2.757974034262821,
+    "center_eV": 3.749753949059602e-05,
+    "sigma_eV": 3.9934269532873994e-05,
+    "baseline": 0.8648530596226647,
+    "slope_per_eV": 12.457080154437712
+  },
+  "fwhm_meV": 28.199176323798227,
+  "fwhm_standard_error_meV": 0.09403801837968041,
+  "residual_rmse": 14.217197666205404,
+  "warnings": [],
+  "uncertainty_note": "Local covariance standard errors, conditional on this model and independent, constant-variance noise; not calibration or systematic uncertainty.",
+  "input_file": "synthetic_spectrum.csv"
+}
