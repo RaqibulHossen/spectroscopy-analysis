@@ -52,7 +52,7 @@ Limitations: no overlapping-peak decomposition, Lorentzian/Voigt comparison, Poi
 
 ## Validation and files
 
-Four local tests pass: noisy peak recovery, reversed-input invariance, invalid input rejection, and truncated-peak warning. The complete demonstration also runs locally. GitHub Actions configuration is included but has not yet run on GitHub. These checks do not establish validity for arbitrary experimental spectra.
+Four local tests pass: noisy peak recovery, reversed-input invariance, invalid input rejection, and truncated-peak warning. The complete demonstration also runs locally. GitHub Actions runs the tests and full demonstration on pushes and pull requests. See the [latest workflow results](https://github.com/RaqibulHossen/spectroscopy-analysis/actions/workflows/tests.yml). These checks do not establish validity for arbitrary experimental spectra.
 
 - `spectroscopy.py`: simulation, CSV validation, fitting, and plotting CLI.
 - `tests/`: scientific recovery and validation tests.
